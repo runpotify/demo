@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Runpotify</title>
+  <title>Runpotify 데모 페이지</title>
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -21,50 +21,125 @@
   <!-- Navbar -->
   <section id="header">
     <!-- <div class="container-lg"> -->
-    <div class="header-container position-fixed">
+      <div class="header-container position-fixed" style="z-index: 1;">
 
-      <div class="logo">
-        <img src="img/runpotify-logo-text-white.svg" alt="Runpotify">
+        <div class="logo" style="color: white;">
+          <img src="img/runpotify-logo-text-white.svg" alt="Runpotify" style="flex: auto;"> Preview
+        </div>
+  
+  
+        <div class="navbar">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">playlists</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="courses.html">courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">about</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <div class="navbar">
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">playlists</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="courses.html">courses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="about.html">about</a>
-          </li>
-        </ul>
+  
+  
+      <div class="pseudo-header" style="padding: 32px; background-color: #0F0F0F;">
+        <!-- 이 div로 masthead 만들면 될 듯. -->
       </div>
-    </div>
-
-    <div class="pseudo-header" style="border: 2px solid; padding: 52px; background-color: #0F0F0F;">
-      <!-- 이 div로 masthead 만들면 될 듯. -->
-    </div>
     <!-- </div> -->
   </section>
 
   <!-- body -->
-  <div class="body-courses">
-    <div class="notice" style="color: white;">
+  <div class="body-about">
+    <!-- <div class="notice" style="color: white;">
       <h1>Oops!</h1>
       <h2>아직 준비중이지롱.</h2>
       <p style="color: #777; font-size: 1.2rem">Contact: <A href="mailto:runpotify@gmail.com 관련 문의" style="color: #777; font-size: 1.2rem;">runpotify@gmail.com</a>
       </p>
+    </div> -->
+
+    <div class="container">
+
+
+  <div class="about-area" style="padding: 40px; color: white;">
+    
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" style="z-index: 0;">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="pic/GGLow-4.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="pic/GGLow-41.JPG" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="pic/GGLow-60.JPG" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+
+    <p class="caption">©00runners</p>
+    <p class="about-title">Runpotify는<br>00runners의 사이드 프로젝트입니다.</p>
+    <br/>
+    <p class="about-title">코로나 이후, 한 자리에 모이기 어려워진 러닝크루의 러닝 세션을 젊은 문화와 디지털 기술을 기반으로 혁신하고 있습니다.</p>
+    <p class="about-description">2022년 3월 초 베타 버전을 00runners 내부에서 릴리즈할 계획입니다. Runpotify를 시작하게 된 자세한 이유는 <a href="https://han-park.oopy.io/6e47d4d4-8326-48e7-b993-829e21364c68" style="color: #999">여기</a>에서 보실 수 있습니다.</p>
+    <br/>
+    <p class="about-title">1) 런린이도 쉽게 러닝 세션을 열 수 있도록 돕는 것, <br> 2) 러닝 크루를 위한 온라인 라운지를 제공하는 것이 우리의 미션입니다.</p>
+    <p class="about-description">함께 만드는(collaborative) 데이터베이스에 러닝 코스와 팁, 음악 플레이리스트를 저장합니다. 러닝 세션 오픈과 신청을 돕고, 나와 크루원들의 러닝 기록을 예쁜 UI로 볼 수 있습니다.</p>
+    <br/>
+    <p class="about-title">원하는 만큼 기여하는, 다양한 전공의 팀원이 있습니다.</p>
+    <p class="about-description">Runpotify Team은 하고 싶은 걸 다 하는, 그러나 멤버 개개인의 다름을 존중하는 문화를 가지고 있습니다. 00runners의 크루원이 아니더라도, individual contribution 할 수 있습니다. 팀에 join 하거나 contribution 하는 것에 관심이 있으시다면 아래의 멤버에게 연락해 주세요.</p>
+  
+    <div class="team-members"> <br>
+      <p class="about-description" style="color: white">Team Members</p>
+      
+      <div class="row">
+        <div class="col-3">
+          <img src="img/Jonghan.jpg" alt="jonghan" style="object-fit: cover; width: 100%; max-height: 100%; border-radius: 5px; padding: 5px;">
+        </div>
+        <div class="col-9" style="text-align: left;">
+          <p class="about-description" style="color: white;">조연우 <i style="color: #999;">&nbsp;General Management, Marketing</i></p>
+          <p class="about-description" style="margin-bottom: 25px;"> 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다.  Instagram: <a href="https://www.instagram.com/yeonwoo___woo/" style="color: #999;">@yeonwoo___woo</a> </p>
+        </div>
+      </div>
+      
+    
+      <div class="row">
+        <div class="col-3">
+          <img src="img/Jonghan.jpg" alt="jonghan" style="object-fit: cover; width: 100%; max-height: 100%; border-radius: 5px; padding: 5px;">
+        </div>
+        <div class="col-9" style="text-align: left;">
+          <p class="about-description" style="color: white;">현유경 <i style="color: #999;">&nbsp;Full Stack Developer</i></p>
+      <p class="about-description" style="margin-bottom: 25px;"> 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다. 자기소개가 들어가는 곳입니다.  Instagram: <a href="https://www.instagram.com/_yourud/" style="color: #999;">@yourud</a> </p>
+        </div>
+      </div>
+
+      
+      <div class="row">
+        <div class="col-3">
+          <img src="img/Jonghan.jpg" alt="jonghan" style="object-fit: cover; width: 100%; max-height: 100%; border-radius: 5px; padding: 5px;">
+        </div>
+        <div class="col-9" style="text-align: left;">
+          <p class="about-description" style="color: white;">박종한 <i style="color: #999;">&nbsp;UX, DataViz, Branding</i></p>
+          <p class="about-description" style="margin-bottom: 25px;"> 조만간 데이터 시각화와 그래픽 디자인이 완전히 통합될 것이라고 믿는 디자인 테크놀로지스트입니다. 커뮤니티를 위한 소프트웨어를 만드는 일을 좋아합니다. Instagram: <a href="https://www.instagram.com/jonghan_future/" style="color: #999;">@jonghan_future</a> </p>
+        </div>
+      </div>
+  
     </div>
   </div>
 
-  <div class="courses-pseudo">
   </div>
+
+      <!-- Content here -->
+    </div>
+
 
   <!-- footer -->
   <section id="footer">
-    <div class="footer" style="padding: 20px;">
+    <div class="footer" style="padding: 20px 40px; border-top: 1px solid #4B4B4B;">
       2021 Runpotify Team<br />
+      <a href="https://www.instagram.com/runpotify_/" style="color: 9F9F9F;">Instagram</a><br />
       runpotify@gmail.com
     </div>
   </section>
