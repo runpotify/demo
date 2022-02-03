@@ -22,7 +22,7 @@
   <!-- Navbar -->
   <section id="header">
     <!-- <div class="container-lg"> -->
-      <div class="header-container position-fixed">
+      <div class="header-container position-fixed" style="z-index: 1;">
 
         <div class="logo" style="color: white;">
           <img src="img/runpotify-logo-text-white.svg" alt="Runpotify" style="flex: auto;"> Preview
@@ -53,79 +53,103 @@
 
   <!-- body -->
   <section id="body">
-    <div class="body-container">
-      <div class="row">
-      <!-- 1 -->
-        <div class="col-md-4 col-sm-6">
-          <div class="playlist-box">
-            <div class="playlist-row-1">
-                <img src="img/Banpo.png" alt="courses-img" class="courses-img">
+  <div class="body-container">
+
+  <div class="scrolling-wrapper" style="padding-left: 20px; margin: 10px 0;">
+         
+          <div class="card">
+              <div class="playlist-box">
+                <div class="playlist-row-1-a">
+                    <img src="img/Banpo.png" alt="courses-img" class="courses-img">
+                </div>
+                <div class="playlist-row-2-a">
+                  <h5>반포 한강공원</h5>
+                  고터 - 잠수교 - 동작대교
+                  <P>
+                  9km &nbsp; by 연우
+                  </p>
+                </div>
             </div>
-            <div class="playlist-row-2">
-              <h5>반포</h5>
-              반포천 - 잠수교 - 고속터미널
+          </div>
+
+          <div class="card">
+            <div class="playlist-box">
+              <div class="playlist-row-1-a">
+                  <img src="img/Gyeongbok.png" alt="courses-img" class="courses-img">
+              </div>
+              <div class="playlist-row-2-a">
+                <h5>경복궁-종묘-청계천</h5>
+                경복궁 한바퀴 후 청계천으로
+                <P>
+                6km &nbsp; by 연우
+                </p>
+              </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="playlist-box">
+            <div class="playlist-row-1-a">
+                <img src="img/Gwanggyo.png" alt="courses-img" class="courses-img">
+            </div>
+            <div class="playlist-row-2-a">
+              <h5>광교호수공원</h5>
+              광교중앙역 - 광교호수공원
               <P>
-              6km &nbsp; by 연우
+              4km &nbsp; by 도연
               </p>
-              <button type="button" class="btn btn-outline-secondary btn-sm">지도에서 열기</button>
             </div>
-          </div>
         </div>
+      </div>
 
-        <div class="col-md-4 col-sm-6">
-          <div class="playlist-box">
-            <div class="playlist-row-1">
-                <img src="img/Seoulforest.png" alt="courses-img" class="courses-img">
-            </div>
-            <div class="playlist-row-2">
-              <h5>서울숲</h5>
-              <P>
-                서울숲 - 성수대교 - 뚝섬역 <br>
-              8km &nbsp; by Han
-              </p>
-              <button type="button" class="btn btn-outline-secondary btn-sm">지도에서 열기</button>
-            </div>
+      <div class="card">
+        <div class="playlist-box">
+          <div class="playlist-row-1-a">
+              <img src="img/Bundang.png" alt="courses-img" class="courses-img">
           </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="playlist-box">
-            <div class="playlist-row-1">
-                <img src="img/Unjoong.png" alt="courses-img" class="courses-img">
-            </div>
-            <div class="playlist-row-2">
-              <h5>운중천</h5>
-              <P> 운중천 - 탄천 - 판교역 <br>
-              5km &nbsp; by Han
-              </p>
-              <button type="button" class="btn btn-outline-secondary btn-sm">지도에서 열기</button>
-            </div>
+          <div class="playlist-row-2-a">
+            <h5>분당 율동공원</h5>
+            율동공원 n바퀴
+            <P>
+            2km &nbsp; by 종한
+            </p>
           </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <div class="playlist-box">
-            <div class="playlist-row-1">
-                <img src="img/Banpo.png" alt="courses-img" class="courses-img">
-            </div>
-            <div class="playlist-row-2">
-              <h5>북서울숲</h5>
-              <P>북서울숲 순환 <br>
-              3km &nbsp; by 연우
-              </p>
-              <button type="button" class="btn btn-outline-secondary btn-sm">지도에서 열기</button>
-            </div>
-          </div>
-        </div>
-
-
-
-
-          </div>
-        </div>
-
       </div>
     </div>
+
+      <div class="card">
+        <div class="playlist-box">
+          <div class="playlist-row-1-a">
+              <img src="img/NSeoulforest.png" alt="courses-img" class="courses-img">
+          </div>
+          <div class="playlist-row-2-a">
+            <h5>북서울 꿈의 숲</h5>
+            북서울 꿈의 숲 N회전
+            <P>
+            2km &nbsp; by 연우
+            </p>
+          </div>
+      </div>
+    </div>
+
+  
+     
+  </div>
+  <!-- scroll-wrapper -->
+
+  <iframe id="map" src="https://www.google.com/maps/d/embed?mid=172VInYouQBn7PGZFBhUBQPonkHfIw-kk&ehbc=2E312F" width="1080" height="440"></iframe>
+
+  </div>
+
+
+     
+
+
+
+
+      
+
+   
 
   </section>
 <!-- footer -->

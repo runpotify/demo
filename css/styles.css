@@ -17,6 +17,24 @@ body {
   /* width: 100%; */
 }
 
+.scrolling-wrapper{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card{
+  display: inline-block;
+  width: 250px;
+  height: 320px;
+  background-color: #1c1c1c;
+  margin-right: 10px;
+}
+
+.playlist-row-2-a{
+  margin-top: 10px;
+}
+
 .nav-container {
   background-color: rgba(255, 255, 255, 0.1);
   text-align: center;
@@ -38,13 +56,17 @@ body {
 
 } */
 
+#map{
+  max-width: 100%;
+}
+
 .row {
   text-align: center;
 }
 
 .playlist-box{
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   margin: 5px 20px;
 }
 
@@ -59,9 +81,9 @@ body {
 }
 
 .courses-img{
-  margin: 15px;
-  width: 12.3rem;
-  height: 10rem;
+  margin: 10px;
+  width: 160px;
+  height: 160px;
 }
 
 .carousel-box{
