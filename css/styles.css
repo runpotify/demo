@@ -1,0 +1,158 @@
+body {
+  background-color: #0F0F0F;
+}
+
+.header-container{
+  /* background-color: #0F0F0F; */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(4px);
+  padding-left: 10px;
+}
+
+.logo {
+  padding-top: 10px;
+  padding-left: 10px;
+  /* width: 100%; */
+}
+
+.scrolling-wrapper{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card{
+  display: inline-block;
+  width: 250px;
+  height: 320px;
+  background-color: #1c1c1c;
+  margin-right: 10px;
+}
+
+.playlist-row-2-a{
+  margin-top: 10px;
+}
+
+.nav-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  line-height: 1;
+ -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 20px 40px;
+}
+
+.nav-link{
+  color: #666666;
+}
+
+.active{
+  color: #0066F6;
+}
+
+/* .navbar {
+
+} */
+
+#map{
+  max-width: 100%;
+}
+
+.row {
+  text-align: center;
+}
+
+.playlist-box{
+  text-align: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+.playlist-img{
+  margin: 15px;
+  width: 10rem;
+  height: 10rem;
+}
+
+.player-btn{
+  margin: 4px;
+}
+
+.courses-img{
+  margin: 10px;
+  width: 160px;
+  height: 160px;
+}
+
+.carousel-box{
+  height: 500px;
+}
+
+#body {
+  background-color: #0F0F0F;
+  color: white;
+}
+
+#footer {
+  background-color: #000;
+  color: #9F9F9F;
+}
+
+
+#body-about{
+  background-color: black;
+}
+
+.notice{
+  margin-top: 100px;
+  padding: 50px;
+  text-align: center;
+}
+
+.courses-pseudo{
+  margin-bottom: 700px;
+}
+
+.about-title{
+  font-weight: 500;
+}
+
+.caption{
+  font-size: 15px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.about-description{
+  margin-top: -5px;
+  color: #999;
+}
+
+@media screen and (max-width: 576px) {
+  .about-title{
+    font-size: 22px;
+  }
+  .about-description{
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .about-title{
+    font-size: 30px;
+  }
+  .about-description{
+    font-size: 21px;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .about-title{
+    font-size: 35px;
+  }
+  .about-description{
+    font-size: 25px;
+  }
+}
