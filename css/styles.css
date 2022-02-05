@@ -45,7 +45,8 @@ body {
 }
 
 .nav-link{
-  color: #666666;
+  /* color: #666; */
+  color: #999;
 }
 
 .active{
